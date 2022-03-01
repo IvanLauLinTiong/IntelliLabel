@@ -6,3 +6,4 @@ gradio
 torch==1.10.2+cu102
 scikit-learn
 neattext
+ipywidgets
