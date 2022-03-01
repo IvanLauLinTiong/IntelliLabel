@@ -1,0 +1,8 @@
+-f https://download.pytorch.org/whl/cu102/torch_stable.html
+notebook
+transformers
+datasets
+gradio
+torch==1.10.2+cu102
+scikit-learn
+neattext
