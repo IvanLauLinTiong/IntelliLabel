@@ -1,9 +1,14 @@
--f https://download.pytorch.org/whl/cu102/torch_stable.html
+# for RTX
+-f https://download.pytorch.org/whl/cu113/torch_stable.html
+torch==1.10.2+cu113
+
+# for GTX
+# -f https://download.pytorch.org/whl/cu102/torch_stable.html
+# torch==1.10.2+cu102
+
 notebook
 transformers
 datasets
-gradio
-torch==1.10.2+cu102
 scikit-learn
 neattext
 ipywidgets

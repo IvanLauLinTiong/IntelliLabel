@@ -6,7 +6,7 @@
 *.zip
 
 # model
-model
+*.pt
 
 # IDE files
 .idea
