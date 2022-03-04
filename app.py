@@ -12,7 +12,12 @@ labels = [
 ]
 
 # Model path
-MODEL_DIR = "./model/"
+# LOCAL
+# MODEL_DIR = "./model/distil-bert-uncased-finetuned-github-issues/"
+
+# REMOTE
+MODEL_DIR = "ivanlau/distil-bert-uncased-finetuned-github-issues"
+
 
 @st.cache(allow_output_mutation=True, show_spinner=False)
 def load_model():
@@ -35,9 +40,6 @@ def neatify_text(text):
 
 
 def main():
-    # load model
-    model, tokenizer = load_model()
-
     # st UI setting
     st.set_page_config(
         page_title="IntelliLabel",
@@ -47,6 +49,12 @@ def main():
     )
     st.title("IntelliLabel")
     st.write("IntelliLabel is a github issue classification app. It classifies issue into 3 categories (Bug, Enhancement, Question).")
+
+    # load model
+    with st.spinner("Downloading model (takes ~1 min)"):
+        model, tokenizer = load_model()
+
+
 
     default_text = "Unable to run Speech2Text example in documentation"
 
