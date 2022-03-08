@@ -10,5 +10,5 @@ Download [here](https://huggingface.co/ivanlau/distil-bert-uncased-finetuned-git
 ## Demo
 
 Try it out:
-[Streamlit Cloud](https://share.streamlit.io/ivanlaulintiong/intellilabel/main/app.py)
+[Streamlit Cloud](https://share.streamlit.io/ivanlaulintiong/intellilabel/main/app.py) OR
 [HuggingFace Spaces](https://huggingface.co/spaces/ivanlau/IntelliLabel)
