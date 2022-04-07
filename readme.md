@@ -11,7 +11,6 @@ git clone https://github.com/IvanLauLinTiong/IntelliLabel.git
 cd IntelliLabel
 git submodule update --init --recursive
 ```
-\
 Or simply:
 ```cmd
 git clone --recurse-submodules https://github.com/IvanLauLinTiong/IntelliLabel.git
