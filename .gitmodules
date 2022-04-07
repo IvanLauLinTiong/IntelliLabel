@@ -1,0 +1,3 @@
+[submodule "model/distil-bert-uncased-finetuned-github-issues"]
+	path = model/distil-bert-uncased-finetuned-github-issues
+	url = https://huggingface.co/ivanlau/distil-bert-uncased-finetuned-github-issues
